@@ -6,5 +6,5 @@ namespace Mo\AOP;
 
 interface InvocationHandlerInterface
 {
-    public function invoke(object $proxy, string $method, array $args);
+    public function invoke(object $object, string $method, array $args);
 }
